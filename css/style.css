@@ -5167,6 +5167,16 @@ input:focus, textarea:focus {
 	.navbar-brand > img{
 	    max-width:135px;
 	    padding-left:25px;
+		height: -webkit-fill-available !important;
+	}
+
+	.about-inline h3{
+		font-size: 30px;
+    	line-height: 42px;
+	}
+	.intro-why h1{
+		font-size: 30px;
+    	line-height: 42px;
 	}
 
 }
