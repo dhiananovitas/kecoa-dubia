@@ -5166,7 +5166,7 @@ input:focus, textarea:focus {
 	}
 	.navbar-brand > img{
 	    max-width:135px;
-	    padding-left:25px;
+	    padding-left:25px;  
 		height: -webkit-fill-available !important;
 	}
 
