@@ -34,10 +34,12 @@ Author URL : https://themeforest.net/user/thememor
 
 body {
 	background: #fff;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	color: #555;
 	font-weight: 400;
-	font-size: 16px;
+	font-size: 14px;
+	letter-spacing: 1px;
+	list-style: 25px;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -52,7 +54,7 @@ p {
 	color: #555;
 	line-height: 28px;
 	font-weight: 400;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 }
 
 b, strong {
@@ -5219,12 +5221,109 @@ input:focus, textarea:focus {
 	padding: 10px;
 	border-radius: 10px;
 	border: 1px solid transparent;
-	background-color: rgb(41, 39, 39);
+	background-color: #6b705c;
 	transition: .3s;
   }
   .btn-load:hover {
-	color: rgb(41, 39, 39);
+	color: #6b705c;
 	background-color: #fff;
-	border: 1px solid rgb(41, 39, 39);
+	border: 1px solid #6b705c;
 	text-decoration: none;
+  }
+
+  .post-date{
+	background-color: antiquewhite;
+    width: max-content;
+    padding: 8px;
+    position: absolute;
+    top: 0;
+    color: #74540a;
+  }
+
+  article img{width: 100%;margin-bottom: 20px;}
+  .desc{padding: 10px 0px 30px 0px;
+    text-align: justify;}
+
+.read-more-regular{
+	background-color: #6b705c;
+    color: #fff;
+    padding: 6px 16px 6px 16px;
+}
+
+
+/* The Modal (background) */
+.modal {
+	display: none; /* Hidden by default */
+	position: fixed; /* Stay in place */
+	z-index: 1; /* Sit on top */
+	padding-top: 120px; /* Location of the box */
+	left: 0;
+	top: 0;
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	overflow: auto; /* Enable scroll if needed */
+	background-color: rgb(0,0,0); /* Fallback color */
+	background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+	position: relative;
+	margin: auto;
+	padding: 0;
+	border: 1px solid #888;
+	width: 80%;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+	-webkit-animation-name: animatetop;
+	-webkit-animation-duration: 0.4s;
+	animation-name: animatetop;
+	animation-duration: 0.4s;
+	background-color: rgba(255,255,255,1);
+    border-radius: 8px;
+    font-size: 13px;
+    line-height: 24px;
+    letter-spacing: 1px;
+  }
+  
+  /* Add Animation */
+  @-webkit-keyframes animatetop {
+	from {top:-300px; opacity:0} 
+	to {top:0; opacity:1}
+  }
+  
+  @keyframes animatetop {
+	from {top:-300px; opacity:0}
+	to {top:0; opacity:1}
+  }
+  
+  /* The Close Button */
+  .close {
+	color: white;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+	color: #f1d7b0;
+	text-decoration: none;
+	cursor: pointer;
+  }
+  
+  .modal-header {
+	padding: 2px 16px;
+    background-color: #6b705c;
+    color: #a59f7b;
+	border-radius: 8px 8px 0px 0px;
+  }
+
+  .modal-title{color: #fff;}
+  
+  .modal-body {padding: 2px 16px;}
+  
+  .modal-footer {
+	padding: 2px 16px;
+	background-color: #5cb85c;
+	color: white;
   }
