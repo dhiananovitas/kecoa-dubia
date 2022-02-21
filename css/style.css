@@ -818,7 +818,7 @@ ul, ol, li {
 .card-product .img-wrap {
     overflow: hidden;
     position: relative;
-    height: 330px;
+    height: auto;
     text-align: center;
 }
 .product-info h4{
@@ -1009,7 +1009,7 @@ margin-bottom: 5px;
 	font-weight: 700;
 	font-size: 15px;
 	letter-spacing: 0.025em;
-	color: #000000333;
+	color: #000333;
 	border: 2px solid #000000;
 	text-align: center;
 	text-transform: uppercase;
@@ -5192,3 +5192,39 @@ input:focus, textarea:focus {
 .footerP p:hover{
 	color:#fff;
 }
+
+.noContent {
+	color: #000 !important;
+	background-color: transparent !important;
+	pointer-events: none;
+  }
+
+  .contentp{
+	/* height: 100px;
+	width: 100%; */
+	color: #fff;
+	font-size: 24px;
+	/* line-height: 100px; */
+	text-align: center;
+	margin: 5px;
+	display: none;
+  }
+
+  .btn-load {
+	width: 200px;
+	color: #fff;
+	display: block;
+	text-align: center;
+	margin: 20px auto;
+	padding: 10px;
+	border-radius: 10px;
+	border: 1px solid transparent;
+	background-color: rgb(41, 39, 39);
+	transition: .3s;
+  }
+  .btn-load:hover {
+	color: rgb(41, 39, 39);
+	background-color: #fff;
+	border: 1px solid rgb(41, 39, 39);
+	text-decoration: none;
+  }
