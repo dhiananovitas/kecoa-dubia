@@ -5232,12 +5232,13 @@ input:focus, textarea:focus {
   }
 
   .post-date{
-	background-color: antiquewhite;
+	background-color: #6B705C;
     width: max-content;
     padding: 8px;
     position: absolute;
     top: 0;
-    color: #74540a;
+    color: #fff;
+	font-weight: bold;
   }
 
   article img{width: 100%;margin-bottom: 20px;}
